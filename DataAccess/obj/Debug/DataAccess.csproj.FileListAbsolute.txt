@@ -1,0 +1,60 @@
+E:\ASPNET\Wizard Magazine\DataAccess\bin\Debug\DataAccess.dll.config
+E:\ASPNET\Wizard Magazine\DataAccess\bin\Debug\DataAccess.dll
+E:\ASPNET\Wizard Magazine\DataAccess\bin\Debug\DataAccess.pdb
+E:\ASPNET\Wizard Magazine\DataAccess\bin\Debug\EntityFramework.dll
+E:\ASPNET\Wizard Magazine\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\ASPNET\Wizard Magazine\DataAccess\bin\Debug\EntityFramework.xml
+E:\ASPNET\Wizard Magazine\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\ASPNET\Wizard Magazine\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+E:\ASPNET\Wizard Magazine\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+E:\ASPNET\Wizard Magazine\DataAccess\obj\Debug\DataAccess.dll
+E:\ASPNET\Wizard Magazine\DataAccess\obj\Debug\DataAccess.pdb
+E:\ASPNET\Wizard Magazine\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\Wizard_Magazine\Wizard Magazine\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Admin\Downloads\Wizard_Magazine\Wizard Magazine\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Admin\Downloads\Wizard_Magazine\Wizard Magazine\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Admin\Downloads\Wizard_Magazine\Wizard Magazine\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Downloads\Wizard_Magazine\Wizard Magazine\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Downloads\Wizard_Magazine\Wizard Magazine\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Downloads\Wizard_Magazine\Wizard Magazine\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Downloads\Wizard_Magazine\Wizard Magazine\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Wizard_Magazine\Wizard Magazine\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Wizard_Magazine\Wizard Magazine\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\Admin\Downloads\Wizard_Magazine\Wizard Magazine\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Admin\Downloads\Wizard_Magazine\Wizard Magazine\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Admin\Desktop\Wizard_Magazine\Wizard Magazine\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Admin\Desktop\Wizard_Magazine\Wizard Magazine\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Admin\Desktop\Wizard_Magazine\Wizard Magazine\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Admin\Desktop\Wizard_Magazine\Wizard Magazine\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\Wizard_Magazine\Wizard Magazine\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\Wizard_Magazine\Wizard Magazine\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\Wizard_Magazine\Wizard Magazine\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\Wizard_Magazine\Wizard Magazine\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Wizard_Magazine\Wizard Magazine\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Wizard_Magazine\Wizard Magazine\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\Admin\Desktop\Wizard_Magazine\Wizard Magazine\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Admin\Desktop\Wizard_Magazine\Wizard Magazine\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Admin\Desktop\2001200681_DOAN_LTWeb\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Admin\Desktop\2001200681_DOAN_LTWeb\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Admin\Desktop\2001200681_DOAN_LTWeb\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Admin\Desktop\2001200681_DOAN_LTWeb\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Admin\Desktop\2001200681_DOAN_LTWeb\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Admin\Desktop\2001200681_DOAN_LTWeb\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\2001200681_DOAN_LTWeb\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\2001200681_DOAN_LTWeb\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\2001200681_DOAN_LTWeb\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\2001200681_DOAN_LTWeb\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\2001200681_DOAN_LTWeb\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\2001200681_DOAN_LTWeb\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+F:\websize\2001200681_Doan_LTWeb\DOAN_LTWeb\DataAccess\bin\Debug\DataAccess.dll.config
+F:\websize\2001200681_Doan_LTWeb\DOAN_LTWeb\DataAccess\bin\Debug\DataAccess.dll
+F:\websize\2001200681_Doan_LTWeb\DOAN_LTWeb\DataAccess\bin\Debug\DataAccess.pdb
+F:\websize\2001200681_Doan_LTWeb\DOAN_LTWeb\DataAccess\bin\Debug\EntityFramework.dll
+F:\websize\2001200681_Doan_LTWeb\DOAN_LTWeb\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+F:\websize\2001200681_Doan_LTWeb\DOAN_LTWeb\DataAccess\bin\Debug\EntityFramework.xml
+F:\websize\2001200681_Doan_LTWeb\DOAN_LTWeb\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+F:\websize\2001200681_Doan_LTWeb\DOAN_LTWeb\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+F:\websize\2001200681_Doan_LTWeb\DOAN_LTWeb\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+F:\websize\2001200681_Doan_LTWeb\DOAN_LTWeb\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+F:\websize\2001200681_Doan_LTWeb\DOAN_LTWeb\DataAccess\obj\Debug\DataAccess.dll
+F:\websize\2001200681_Doan_LTWeb\DOAN_LTWeb\DataAccess\obj\Debug\DataAccess.pdb

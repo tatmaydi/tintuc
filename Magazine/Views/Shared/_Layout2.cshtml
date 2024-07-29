@@ -1,0 +1,542 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/Daco_1024187.png" />
+    <title>Wishlist</title>
+
+
+    <link href="/Assets/client/eliah/fontawesome/all.css" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- Spartan font -->
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Slick -->
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+
+
+    <link href="~/Assets/client/eliah/css/reset.css" rel="stylesheet" />
+
+    <link href="/Assets/client/eliah/css/pre.css" rel="stylesheet" />
+
+    <link href="/Assets/client/eliah/css/header-a.css" rel="stylesheet" />
+
+    <link href="/Assets/client/eliah/css/footer-a.css" rel="stylesheet" />
+
+    <link href="/Assets/client/eliah/css/blog.css" rel="stylesheet" />
+
+    <link href="/Assets/client/eliah/css/single-post.css" rel="stylesheet" />
+
+    <link href="/Assets/client/eliah/css/single-post1.css" rel="stylesheet" />
+
+    <link href="/Assets/client/eliah/css/blog2.css" rel="stylesheet" />
+
+
+    <!-- <link rel="stylesheet" href="css/all.css"> -->
+
+    <link href="/Assets/client/css/clientStyle.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+
+        $(function () {
+            $("#abc11").submit(function () {
+                if (this.name.value == "") {
+                } else {
+                    alert("Subscribe success!");
+                    document.getElementById("form-get-it").reset();
+                }
+                return false;
+            });
+        });
+
+        $(document).ready(function () {
+            $(document).mouseup(function (e) {
+                var container = $(".top-bar__search");
+
+                if (!container.is(e.target) && container.has(e.target).length === 0) {
+                    container.hide();
+                }
+            });
+
+            $(".post-wish").click(function () {
+                $(".post-wish>i").css('color', '#f26460');
+            });
+            $(".post-wish1").click(function () {
+                $(".post-wish1>i").css('color', '#f26460');
+            });
+            $(".post-wish2").click(function () {
+                $(".post-wish2>i").css('color', '#f26460');
+            });
+            $(".post-wish3").click(function () {
+                $(".post-wish3>i").css('color', '#f26460');
+            });
+            $(".post-wish4").click(function () {
+                $(".post-wish4>i").css('color', '#f26460');
+            });
+            $(".post-wish5").click(function () {
+                $(".post-wish5>i").css('color', '#f26460');
+            });
+            $(".post-wish6").click(function () {
+                $(".post-wish6>i").css('color', '#f26460');
+            });
+            $("#show__search-input").click(function () {
+                $(".top-bar__search").show();
+                $(".top-bar__search").css('display', 'flex');
+            });
+
+            $(".top-bar__icon-cart").click(function () {
+                $(".inside-cart").show();
+                $(".inside-cart").css('opacity', '1');
+
+                // $(".hover-carts").css('display','block');
+                $("#overlay").css('display', 'block');
+            });
+            $(".cart-quantity").click(function () {
+                $(".inside-cart").show();
+                $(".inside-cart").css('opacity', '1');
+                // $(".hover-carts").css('display','block');
+                $("#overlay").css('display', 'block');
+            });
+
+            $("#overlay").click(function () {
+                $(".inside-cart").hide();
+
+                $("#overlay").hide();
+            });
+
+            $("#btn-show-menu").click(function () {
+                $(".top-bar__menu").css('left', '0');
+            });
+
+
+            $("#btn-times").click(function () {
+                $(".top-bar__menu").css('left', '-100%');
+            });
+
+        });
+    </script>
+
+
+</head>
+<body>
+   
+    <header>
+        <section class="top-bar">
+            <div class="top-bar__content">
+                <div>
+                    <div class="top-bar__logo">
+                        <h1>Tin Tức 24h</h1>
+                    </div>
+                    <div class="top-bar__menu">
+                        <ul>
+                            <i id="btn-times" class="far fa-times"></i>
+                            <li>
+                                <a href="coming-soon.html">HomePage</a>
+
+                            </li>
+                            <li style="display: none;"><a href="coming-soon.html">About</a></li>
+                            <li id="item-home" style="position: relative;">
+                                <a href="blog2.html">Thể loại</a>
+                                <div style="z-index: 888;" class="menu-home">
+                                    <a href=""><div><span></span>Sức Khỏe</div></a>
+                                    <a href=""><div><span></span>Công nghệ</div></a>
+                                    <a href=""><div><span></span> Văn Hóa</div></a>
+                                    <a href="lifestyle.html"><div><span></span> Gia thông</div></a>
+                                </div>
+                            </li>
+                            <li><a href="/Admin/Article">Bài Viết</a></li>
+                            <li><a href="/Admin/User">Tài Khoản</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="top-bar__cart">
+                        <div id="show__search-input" style="position: relative;">
+                            <i class="fal fa-search stt"></i>
+                            <div class="tool-tip-search">
+                                Search post
+                                <div></div>
+                            </div>
+                            <div class="top-bar__search">
+                                @using (Html.BeginForm("Index", "HomePage", FormMethod.Get, new { @class = "search1-form" }))
+                                {
+
+                                    @Html.TextBox("searchst",
+                                        null,
+                                        new
+                                        {
+                                            id = "searchst",
+                                            @class = "top-bar__search-input"
+                                        })
+                                    <input id="btsearch" value="submit" style="display: none;" type="submit" />
+                                    <label style="position: absolute; top: 8px; right: -20px;" for="btsearch"><i class="fal fa-search"></i></label>
+                                }
+
+                            </div>
+                        </div>
+
+                        <div class="top-bar__shopping-cart">
+                            <div class="top-bar__icon-cart">
+                                <a>
+                                    <i style="font-size: 25px; " class="fal fa-heart"></i>
+                                </a>
+                            </div>
+                            <div style="display: none;" class="cart-quantity">
+                                <span>Cart:</span>
+                                <span>$0.00</span>
+                            </div>
+
+                            <div id="overlay">
+
+                            </div>
+                            <div class="inside-cart">
+                                <div class="title-hover-carts">
+                                    Posts wishlist
+                                </div>
+                                <div class="list-pro-hover-carts">
+                                    <div class="pro-hover-carts">
+                                        <div>
+                                            <div class="show-detail-pro-incart">
+                                                <img src="https://image.thanhnien.vn/w2048/Uploaded/2022/wobjuko/2022_12_19/z3968723615670-d91d475422a0c449b03e59f7acfd2e03-6362.jpg">
+                                            </div>
+                                            <div>
+                                                <a href="single-post1.html">
+                                                    <div class="pro-hover-carts-title ">
+                                                        Hàng trăm hộp thuốc lá trôi dạt vào bờ biển Quảng Bình
+                                                    </div>
+                                                </a>
+                                                <div class="pro-hover-carts-price">
+                                                    <!-- $21.00 -->
+                                                </div>
+                                                <div class="pro-hover-carts-quantity">
+                                                    21 March 2022
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <i class="fal fa-times-circle"></i> -->
+                                    </div>
+
+                                    <div class="pro-hover-carts">
+                                        <div>
+                                            <div class="show-detail-pro-incart">
+                                                <img src="https://image.thanhnien.vn/w2048/Uploaded/2022/lxwpcqjwp/2022_12_19/1-bai-tno-3332.jpg">
+                                            </div>
+                                            <div>
+                                                <a href="single-post1.html">
+                                                    <div class="pro-hover-carts-title">
+                                                        Khỉ hoang 'đại náo' nhà dân
+                                                    </div>
+                                                </a>
+                                                <div class="pro-hover-carts-price">
+                                                    <!-- $21.00 -->
+                                                </div>
+                                                <div class="pro-hover-carts-quantity">
+                                                    14 August 2022
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <i class="fal fa-times-circle"></i> -->
+
+
+                                    </div>
+
+
+                                    <a href="blog2.html">
+                                        <div class="button-view-all-post">
+                                            VIEW ALL
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="button-bar">
+                            <input type="checkbox" id="click-menu">
+                            <label for="click-menu" id="menu-btn">
+                                <i id="btn-show-menu" class="far fa-bars"></i>
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div style="z-index: 99; position: relative;">
+                <h1 class="h1hr">Breaking news</h1>
+                <div>
+                    <a href=""><span style="color: white;">Home</span></a>
+                    <span style="color: white;">/</span>
+                    <a href=""><span style="color: white;">Article</span></a>
+                    <span style="color: white;">/</span>
+                    <span style="cursor: default;">Breaking news</span>
+                </div>
+            </div>
+            <div class="ovl-hero"></div>
+        </section>
+
+        <section class="main-content">
+
+            <div class="mc-container">
+                <div class="mc-lsb">
+                    <div class="lsb__search-bar">
+                        <div>
+                            @using (Html.BeginForm("Search", "Article", FormMethod.Get))
+                            {
+                                <input id="it-search-lsb" type="text" placeholder="What are you looking for?" class="top-bar__search-input">
+                                <input name="bttsearch" style="display:none;" type="submit" />
+                                <label for="bttsearch"><i class="fa fa-search"></i></label>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="lsb__follow">
+                        <h2>Follow me</h2>
+                        <div>
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="lsb__category">
+                        <h2>Thể loại</h2>
+                        <div>
+                            <a href="">
+                                <span>Kiến Thức</span>
+                                <span>112</span>
+                            </a>
+                            <a href="">
+                                <span>Công nghệ</span>
+                                <span>218</span>
+                            </a>
+                            <a href="">
+                                <span>Sức khỏe</span>
+                                <span>69</span>
+                            </a>
+                            <a href="lifestyle.html">
+                                <span>văn hóa</span>
+                                <span>72</span>
+                            </a>
+                            <a href="">
+                                <span>Giao thông</span>
+                                <span>88</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="lsb__popular-post">
+                        <h2>Bảng tin hay</h2>
+                        <div>
+                            <div class="lsb__pp-post">
+                                <div>
+                                    <img src="https://image.thanhnien.vn/w2048/Uploaded/2022/ycivoxpw/2022_12_19/received-558331102777316-1065.jpeg">
+                                </div>
+                                <div class="title">
+                                    <h3><a href="single-post1.html">Sắp thanh tra chuyên đề phát hành trái phiếu doanh nghiệp</a></h3>
+                                    <span>13 March 2022</span>
+                                </div>
+                            </div>
+                            <div class="lsb__pp-post">
+                                <div>
+                                    <img src="https://cdn.tgdd.vn/Products/Images/5697/258332/dell-lcd-p2722h-27inch-fullhd-121122-121034-600x600.jpg">
+                                </div>
+                                <div class="title">
+                                    <h3><a href="single-post1.html">The best 144Hz monitors</a></h3>
+                                    <span>13 Nov 2022</span>
+                                </div>
+                            </div>
+                            <div class="lsb__pp-post">
+                                <div>
+                                    <img src="https://image.thanhnien.vn/w2048/Uploaded/2022/tnaztw/2022_12_19/putin-739.jpg">
+                                </div>
+                                <div class="title">
+                                    <h3><a href="single-post1.html">Tổng thống Putin đến Minsk, Nga - Belarus tập trận khiến Ukraine lo lắng</a></h3>
+                                    <span>13 Nov 2022</span>
+                                </div>
+                            </div>
+                            <div class="lsb__pp-post">
+                                <div>
+                                    <img src="https://i.ytimg.com/vi/TGfERg6qpy0/maxresdefault.jpg">
+                                </div>
+                                <div class="title">
+                                    <h3><a href="single-post1.html">Tôi yêu chợ Việt Tập 30: Việt Hương làm mai mát tay cho cặp đôi</a></h3>
+                                    <span>13 Nov 2022</span>
+                                </div>
+                            </div>
+                            <div class="lsb__pp-post">
+                                <div>
+                                    <img src="https://image.thanhnien.vn/w2048/Uploaded/2022/lxwpcqjwp/2022_12_19/1-bai-tno-3332.jpg">
+
+                                </div>
+                                <div class="title">
+                                    <h3><a href="single-post1.html">Khỉ hoang 'đại náo' nhà dân</a></h3>
+                                    <span>13 Nov 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lsb__newsletter">
+                        <h2>Đăng ký</h2>
+                        <div>Đăng ký để nhận được tin sớm nhất</div>
+                        <form id="abc11" action="">
+                            <input class="ip-email-aa" type="email" placeholder="Your email" required>
+                            <div style="margin-top: 10px;">
+
+                                <input type="checkbox" id="cb-newsletter">
+                                <label for="cb-newsletter">I agree to the terms & conditions</label>
+                                <input class="sub-butt" type="submit" value="SUBSCRIBE"></input>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+                @RenderBody()
+            </div>
+
+        </section>
+
+        <section class="bottom-list-img">
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-a">
+            <div class="footer__content">
+                <div class="footer__contact">
+                    <div>
+                        <h1>Tin Tức 24h</h1>
+                    </div>
+                    <div>
+                        <form class="form-sub" action="">
+                            <label id="sub-newsletter" for="input-email">Subscribe Newletter</label>
+                            <div>
+                                <input type="text" id="input-email" placeholder="Your email">
+                                <div class="icon-ariplane">
+                                    <i class="fas fa-paper-plane"></i>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div>
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-detail">
+                    <div>
+                        <div>
+                            Contact info
+                        </div>
+                        <ul class="list-contact">
+                            <li>
+                                <span>Đại chỉ:</span>
+                                <span>140, Lê Trọng Tấn, p.Tây Thạnh, q.Tân Phú, TP.HCM</span>
+                            </li>
+                            <li>
+                                <span>Phone:</span>
+                                <span>07639232969</span>
+                            </li>
+                            <li>
+                                <span>Email:</span>
+                                <span>tthdang2@gmail.com</span>
+                            </li>
+                            <li>
+                                <span>Thời gian:</span>
+                                <span>20.00.pm </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div>
+                            Thông tin
+                        </div>
+                        <ul class="list-information">
+                            <li><a href="">Tông Biên Tập</a></li>
+                            <li><a href="">Phóng tông Biên Tập</a></li>
+                            <li><a href="">Ủy viên Biên Tập</a></li>
+                            <li><a href="">Thư ký Biên Tập</a></li>
+                            <li><a href="">Thử ký toàn soạn</a></li>
+                        </ul>
+                    </div>
+                    <div style="display: none;">
+                        <div>
+                            Payment methods
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit gravida facilisis. </p>
+                        <div class="logo-payment">
+                            <img src="icon/paypal_icon.png" alt="">
+                            <img src="icon/visa_icon.png" alt="">
+                            <img src="icon/mastercard_icon.png" alt="">
+                            <img src="icon/cirrus_icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-copyright">
+            <div>
+                <div>
+                    © Copyright 2022 Wizard Magazine
+                </div>
+                <div>
+                    <span><a href="">Privacy Policy</a></span>
+                    <span>|</span>
+                    <span><a href="">Terms & Conditions</a></span>
+                    <span>|</span>
+                    <span><a href="">Site Map</a></span>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Slick -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+    @RenderSection("ClientScript1", required: false);
+</body>
+</html>

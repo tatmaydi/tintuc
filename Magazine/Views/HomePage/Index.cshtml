@@ -1,0 +1,58 @@
+﻿@model IEnumerable<DataAccess.EntityFramework.article>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+
+<div class="mc-post">
+    <div class="list-normal-post">
+        @foreach (var item in Model)
+        {
+
+            <div class="mp">
+                <div class="mp-img">
+                    <img src="@Html.DisplayFor(modelItem => item.image)" alt="">
+                    <div class="post-wish1">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                <div class="mp-title">
+                    <div style="position: relative; z-index: 10;">
+                        <div class="lp-date">
+                            <div>@(item.create_time.HasValue?item.create_time.Value.ToString("dd") : "")</div>
+                            <span>@(item.create_time.HasValue?item.create_time.Value.ToString("MM") : "")</span>
+                        </div>
+                        <div class="mp-nav">
+                            <span>by</span>
+                            <span> hai Dang</span>
+                            <span>/</span>
+                            <span>Tib Hot</span>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="@Url.Action("Detail", "HomePage" , new {id = item.article_id})">
+                            <span>@Html.Raw(item.title)</span>
+                        </a>
+                    </div>
+                    <div class="pretext" style="">                       
+                        @Html.Raw(item.textbody)
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+
+    <div class="page-number">
+        <div>
+            <div style="background-color: white;"><a style="color: black; text-decoration: none;" href="blog2.html">1</a></div>
+            <div style="background-color: black; color: white;">2</div>
+            <div>3</div>
+            <div><i class="fal fa-chevron-right"></i></div>
+        </div>
+    </div>
+
+</div>
+
